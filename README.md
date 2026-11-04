@@ -3,3 +3,8 @@ It is well known that Sony’s S-Log3 gamma curve offers powerful color grading 
 The S-Log3 gray card workflow also plays an important role in modern film and hybrid shooting pipelines. That said, if you are an experienced colorist, this may be unnecessary, and you might not even use this node setup. But if you are just getting started with Sony mirrorless cameras, color grading can feel intimidating. This node structure is designed to save you time and give you a clean starting point.
 The test version includes two node sets: “STD”, a more neutral, standard reconstruction, and “2383”, which simulates a Kodak 2383 filmic look after color space conversion. Both sets are available in Simplified Chinese and English. The nodes were tested on the Sony a6700, and they should also work with other Sony Alpha mirrorless cameras that support 10-bit recording, though minor adjustments may be needed.
 All nodes assume an S-Log3 “expose to the right” workflow. When using a gray card, reference the 18% middle-gray exposure and overexpose neutral gray by approximately +1.3 to +1.7 EV to keep the shadows clean and maintain grading headroom.
+索尼 S-Log3 伽马曲线在业内被公认为具备极强的调色灵活性。如果你使用的是 2020 年之后发布、支持 10-bit 录制的索尼 Alpha 无反相机，例如 a7 IV、a7S III、a7R V、a7C II、a1、a6700、ZV-E1 或 ZV-E10 II，在 DaVinci Resolve 中会有充足的调色空间。这类素材在对比度、饱和度和风格化处理上都比较耐调，不容易像 8-bit Log 素材那样出现断层或失真。
+S-Log3 配合灰卡的工作流程，在现代电影和混合拍摄流程中也非常重要。当然，如果你是经验丰富的调色师，这套节点结构可能并不是必需品，你甚至可能完全不会采用它。但如果你刚开始接触索尼无反相机的调色，S-Log3 确实可能让人感到棘手。
+这套节点结构的目的，就是帮你节省时间，并提供一个干净、可靠的起点。
+本次测试版包含两组节点：“STD”，用于相对中性的标准还原；以及 “2383”，在完成色彩空间转换后模拟柯达 2383 胶片质感。两组节点均提供简体中文和英文版本。节点测试基于索尼 a6700，其他支持 10-bit 录制的索尼 Alpha 无反机型也可兼容，但可能需要根据机型和拍摄场景做轻微调整。
+所有节点都基于 S-Log3 “向右曝光”的拍摄技巧。使用灰卡时，请以 18% 中性灰为曝光参考，并将中性灰适当过曝约 +1.3 至 +1.7 EV，以获得更干净的暗部并保留充足的调色余量。
